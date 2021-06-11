@@ -1,0 +1,34 @@
+body {
+    background:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+h1 {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+.countdown_container{
+    display: flex;
+
+}
+.contdown_number{
+    font-size: 40px;
+    margin: 10px 25px;
+}
+.countdown_colom {
+    text-align: center;
+}
+
+.countdown_colom span {
+    font-size: 19px;
+}
